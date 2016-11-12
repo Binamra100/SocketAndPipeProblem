@@ -25,8 +25,8 @@ public class Solution {
 		
 		// searching for the appropriate match between socket and pipe.
 		for(Pipe p: pipes){
-			if(sockets.containsKey(p.getSize())){
-				System.out.println(p + " matches " + sockets.get(p.getSize()));
+			if(sockets.containsKey(p.getDiameter())){
+				System.out.println(p + " matches " + sockets.get(p.getDiameter()));
 			}
 		}
 		

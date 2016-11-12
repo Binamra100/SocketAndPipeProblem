@@ -7,11 +7,11 @@ public class Pipe implements Coupling {
 		this.diameter = size;
 	}
 
-	public int getSize() {
+	public int getDiameter() {
 		return diameter;
 	}
 
-	public void setSize(int size) {
+	public void setDiameter(int size) {
 		this.diameter = size;
 	}
 	
