@@ -1,20 +1,20 @@
 package com.binamra.aerialarts.dao;
 
 public class Socket implements Coupling {
-	int size;
+	int diameter;
 
 	public Socket(int size){
-		this.size = size;
+		this.diameter = size;
 	}
 	public int getSize() {
-		return size;
+		return diameter;
 	}
 
 	public void setSize(int size) {
-		this.size = size;
+		this.diameter = size;
 	}
 	
 	public String toString(){
-		return "Socket " + size;
+		return "Socket " + diameter;
 	}
 }

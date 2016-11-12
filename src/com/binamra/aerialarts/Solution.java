@@ -10,7 +10,7 @@ public class Solution {
 
 	public static void main(String[] args) {
 		
-		int num;
+		int diameter;
 		ArrayList<Pipe> pipes = new ArrayList<Pipe>();
 		Hashtable<Integer, Socket> sockets = new Hashtable<Integer, Socket>();
 		
@@ -18,9 +18,9 @@ public class Solution {
 		
 		//for one to one mapping
 		for(int i=0;i<=10;i++){
-			num = rand.nextInt(20 - 0) + 0;
-			pipes.add(new Pipe(num));
-			sockets.put(num,new Socket(num));
+			diameter = rand.nextInt(20 - 0) + 0;
+			pipes.add(new Pipe(diameter));
+			sockets.put(diameter,new Socket(diameter));
 		}
 		
 		// searching for the appropriate match between socket and pipe.

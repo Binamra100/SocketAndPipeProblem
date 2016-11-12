@@ -1,23 +1,23 @@
 package com.binamra.aerialarts.dao;
 
 public class Pipe implements Coupling {
-	int size;
+	int diameter;
 	
 	public Pipe(int size){
-		this.size = size;
+		this.diameter = size;
 	}
 
 	public int getSize() {
-		return size;
+		return diameter;
 	}
 
 	public void setSize(int size) {
-		this.size = size;
+		this.diameter = size;
 	}
 	
 	public String toString(){
 		
-		return "Pipe " + size;
+		return "Pipe " + diameter;
 		
 	}
 	
